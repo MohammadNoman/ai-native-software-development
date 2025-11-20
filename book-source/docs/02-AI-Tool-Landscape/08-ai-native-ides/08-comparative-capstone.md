@@ -68,7 +68,7 @@ Before diving into the three implementations, let's establish what you're buildi
 
 ---
 
-## Part 1: Building with Zed — The Inline Workflow
+## Building with Zed — The Inline Workflow
 
 You're starting fresh in Zed. This workflow emphasizes **incremental inline requests**, where you build the project function-by-function, staying in the editor, using Ctrl+I to iterate rapidly.
 
@@ -435,7 +435,7 @@ Key Insight: The inline workflow favors incremental thinking. You break requirem
 
 ---
 
-## Part 2: Building with Cursor — The Chat-Agent Workflow
+## Building with Cursor — The Chat-Agent Workflow
 
 Now you're switching IDEs. Cursor's approach is fundamentally different. Rather than small inline prompts, you'll write a complete specification, provide it to Cursor's Chat interface, then review and apply diffs. This workflow emphasizes **planning upfront** and **agent autonomy with review**.
 
@@ -642,7 +642,7 @@ Key Insight: Cursor's workflow favors specification-driven thinking. You write i
 
 ---
 
-## Part 3: Building with Antigravity — The Plan-Artifact Workflow
+## Building with Antigravity — The Plan-Artifact Workflow
 
 Now switch to Antigravity. This is fundamentally different from both Zed and Cursor. Antigravity's approach emphasizes **planning**, **artifacts**, and **parallel work opportunities**. Rather than inline requests or chat diffs, you'll create an agent that generates a comprehensive implementation plan, review it, then watch the agent execute.
 

@@ -34,7 +34,7 @@ You've installed Zed and connected it to an AI provider. Now you're ready to exp
 
 This lesson teaches you to observe and evaluate AI-generated code—developing critical judgment about when AI suggestions are excellent, adequate, or need refinement. By the end, you'll have completed a full mini-project using Zed's AI features, and you'll understand how to select the right AI feature for different development tasks.
 
-## Opening: From Installation to Collaboration
+## From Installation to Collaboration
 
 Think back to Chapter 5 when you learned Claude Code. You opened the terminal, typed commands, and Claude executed them in a sandboxed environment. That's **asynchronous collaboration**—you request something, AI delivers results, you evaluate and iterate. There's a context switch: from your development environment to the terminal, back to your code.
 
@@ -48,7 +48,7 @@ In this lesson, you'll experience this shift through Zed's core AI features. Eac
 
 ---
 
-## Section 1: The Inline Assistant — Your AI Coding Partner
+## The Inline Assistant — Your AI Coding Partner
 
 The **inline assistant** is Zed's primary interface for AI collaboration. It's how you request code generation, ask questions about code structure, and iterate on suggestions—all without leaving your editor. Unlike copying code snippets from a web search or pasting from ChatGPT's web interface, the inline assistant is embedded in your editing experience—it understands your project structure, your existing code, and your development context in real-time.
 
@@ -183,7 +183,7 @@ The AI explains problems AND solutions, teaching you in real-time.
 
 ---
 
-## Section 2: Multi-Model Configuration — Choosing the Right AI for the Task
+## Multi-Model Configuration — Choosing the Right AI for the Task
 
 Different AI models excel at different tasks. Claude Sonnet is excellent at complex reasoning and thorough, production-ready generation. GPT-4 Mini is faster for quick completions, ideal for autocomplete and simple suggestions. Gemini 2.0 Flash excels at structured data tasks and documentation. Zed lets you configure multiple models and switch between them per task, enabling you to get the best tool for each specific need without compromising on either speed or quality.
 
@@ -315,7 +315,7 @@ Done in 50ms. Claude would produce something similar but take 300ms. For this si
 
 ---
 
-## Section 3: Tab Autocomplete — Real-Time Code Suggestions
+## Tab Autocomplete — Real-Time Code Suggestions
 
 While the inline assistant requires explicit prompts, **tab autocomplete** runs continuously as you type. Zed's AI watches your code and suggests the next logical lines—without you asking.
 
@@ -382,7 +382,7 @@ Autocomplete shines for **predictable code patterns**. The AI learns what you're
 
 ---
 
-## Section 4: AI-Powered Code Refactoring
+## AI-Powered Code Refactoring
 
 You've written working code. Now you want to improve it. **Refactoring with AI** lets you select code and ask the AI to improve it while preserving functionality.
 
@@ -455,7 +455,7 @@ def process_temperature(value, unit):
 
 ---
 
-## Section 5: Git Integration — AI-Generated Commit Messages
+## Git Integration — AI-Generated Commit Messages
 
 You've made changes to your code. Now you need to commit them. Writing good commit messages takes thought—describing what changed and why. Zed can generate these for you.
 
@@ -500,7 +500,7 @@ The AI understood the change type (`refactor`), what was extracted and why, and 
 
 ---
 
-## Section 6: Mini-Project: Temperature Converter with Zed
+## Mini-Project: Temperature Converter with Zed
 
 Now you'll put it all together. You'll build a complete temperature converter CLI using Zed's AI features.
 
@@ -760,7 +760,7 @@ When you spot red flags, use the inline assistant to improve: "Add type hints", 
 
 ---
 
-## Section 8: Common Workflows and Time-Saving Patterns
+## Common Workflows and Time-Saving Patterns
 
 You've learned individual Zed AI features. Now combine them into complete workflows.
 
@@ -802,7 +802,7 @@ You've learned individual Zed AI features. Now combine them into complete workfl
 
 ---
 
-## Advanced Section: Understanding Zed's AI Architecture and Capabilities
+## Understanding Zed's AI Architecture and Capabilities
 
 To use Zed effectively, understanding its underlying architecture helps you work WITH the AI rather than against it. Zed is fundamentally different from traditional IDE plugins because of how it integrates AI at the architectural level.
 
@@ -988,40 +988,3 @@ But in production, add these practices:
 3. **Use version control** to track AI-assisted changes
 4. **Document decisions** about which model/approach you chose and why
 5. **Keep learning** — AI models improve, stay current with new features
-
----
-
-## Summary: Mastering Zed's AI Workflows
-
-By completing this lesson, you've learned:
-
-**Core Features**:
-- Inline assistant (Ctrl+I) for explicit code generation requests
-- Tab autocomplete for continuous, lightweight suggestions
-- Multi-model configuration to match models to tasks
-- Code refactoring through selection and prompting
-- Git integration for AI-assisted commit messages
-
-**Advanced Concepts**:
-- How Zed provides project context to AI (unlike web tools)
-- Performance/quality trade-offs in model selection
-- How to write effective prompts for better results
-- Error recovery and collaborative debugging
-- When AI is helpful vs. when you should code manually
-
-**Practical Skills**:
-- Building a complete CLI application with AI assistance
-- Evaluating AI-generated code critically
-- Iterating on suggestions to improve quality
-- Using common development workflows with AI
-
-**Pedagogical Insight**:
-- You've experienced **Layer 2 AI Collaboration** (AI as Teacher/Student/Co-Worker)
-- You've evaluated AI output rather than passively accepting it
-- You've learned that AI assistance requires critical thinking, not blind trust
-
-In the next lesson, you'll install **Cursor IDE** and apply these same skills to a different tool. You'll notice similarities in concepts but differences in implementation. This comparative experience will deepen your understanding of what makes IDEs "AI-native" and help you choose the right tool for different contexts.
-
-The temperature converter project you built is modest in scope but complete in functionality. In professional contexts, you'll build much larger systems. But the workflow remains the same: collaborate with AI to generate code, evaluate it critically, iterate to improve, and commit your work to version control.
-
-You're now ready to become proficient in multiple AI-native IDEs.

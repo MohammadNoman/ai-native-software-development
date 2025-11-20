@@ -31,13 +31,9 @@ Cursor can use extensions from the VS Code marketplace. If you've built a workfl
 
 While Zed excels at speed and simplicity, Cursor's strength is **Agent mode**—AI that can autonomously write code across multiple files, showing you a diff-based review before applying changes. This is fundamentally different from Zed's inline assistant approach.
 
-## What You Will Do in This Lesson
-
-Install Cursor on your platform, optionally migrate VS Code settings, authenticate with an AI provider, and verify that inline code generation works. Like Lesson 2, this is observational learning—you install, configure, and verify.
-
 ---
 
-## Part 1: Platform-Specific Installation
+## Platform-Specific Installation
 
 ### macOS Installation
 
@@ -105,11 +101,21 @@ winget install cursor
 cursor
 ```
 
+**Option 3: CLI Installer (All Platforms)**
+
+For automated installation or shell-based setup:
+
+```bash
+curl https://cursor.com/install -fsS | bash
+```
+
+This method works on macOS, Linux, and Windows (with Git Bash or WSL).
+
 **Verification**: On all platforms, Cursor should launch, showing a welcome screen with options for theme selection and keyboard shortcuts.
 
 ---
 
-## Part 2: Initial Setup Wizard
+## Initial Setup Wizard
 
 Cursor's setup wizard walks you through basic configuration:
 
@@ -143,7 +149,7 @@ Set your preferred font size (14 is common, 16 for larger screens, 12 for smalle
 
 ---
 
-## Part 3: Optional—Migrating from VS Code
+## Optional—Migrating from VS Code
 
 If you've used VS Code and want to bring your settings with you:
 
@@ -188,7 +194,7 @@ After import:
 
 ---
 
-## Part 4: AI Provider Authentication
+## AI Provider Authentication
 
 Cursor offers two authentication paths:
 
@@ -250,7 +256,7 @@ Use API keys from providers you already subscribe to:
 
 ---
 
-## Part 5: .cursorrules—Project-Level Context
+## .cursorrules—Project-Level Context
 
 Unlike Zed, Cursor supports `.cursorrules`, a special file that tells Cursor about your project's coding standards and preferences.
 
@@ -342,7 +348,7 @@ Accessibility:
 
 ---
 
-## Part 6: Verification Test
+## Verification Test
 
 Now verify that Cursor's AI integration works:
 
@@ -440,7 +446,7 @@ If you see this output, **Cursor is working correctly**.
 
 ---
 
-## Part 7: Configuration Deep Dive
+## Configuration Deep Dive
 
 Access Cursor's settings to customize behavior:
 
@@ -489,7 +495,7 @@ You can edit these by opening Settings as JSON (click the {} icon in Settings UI
 
 ---
 
-## Part 8: Troubleshooting Common Issues
+## Troubleshooting Common Issues
 
 ### Issue 1: "No API Key Configured" Error
 
@@ -550,7 +556,7 @@ You can edit these by opening Settings as JSON (click the {} icon in Settings UI
 
 ---
 
-## Part 9: First Comparison with Zed
+## First Comparison with Zed
 
 Now that you have Cursor installed, let's compare your two IDEs:
 
@@ -595,52 +601,3 @@ Cursor feels slightly more direct (fewer menu clicks), while Zed's structured ap
 
 You'll dive deeper into each IDE's advanced features in Lessons 5 and 7.
 
----
-
-## Practice Checklist
-
-Before moving to Lesson 5, verify you can do all of these:
-
-- [ ] Cursor launches without errors
-- [ ] You can create and save files
-- [ ] You can open Settings (Cmd+, / Ctrl+,)
-- [ ] You know your configured AI model (check Settings → Default Model)
-- [ ] Cmd+K (Ctrl+K) triggers inline code generation
-- [ ] You can accept generated code with Tab
-- [ ] You can open .cursorrules in a project and edit it
-- [ ] You know your keyboard shortcut for opening Extensions (Cmd+Shift+X / Ctrl+Shift+X)
-
-Tick all eight boxes before Lesson 5.
-
----
-
-## What You Learned
-
-You installed Cursor on your platform, authenticated with an AI provider (either Cursor Pro or bring-your-own-key), created a .cursorrules file to provide project context, and verified that inline code generation works. You now have a second AI-native IDE installed alongside Zed, and you understand key differences between them.
-
----
-
-## Next Lesson Preview
-
-Lesson 5 explores Cursor's unique AI features: **Chat mode** (long-form conversation), **Agent mode** (autonomous multi-file coding), and **diff-based change review**. You'll see how these differ from Zed's approach and practice with a more complex project than a simple prime checker.
-
----
-
-## Additional Resources
-
-**Official Documentation**:
-- Cursor: [cursor.com/docs](https://cursor.com/docs)
-- .cursorrules specification: [cursor.com/docs/context/rules](https://cursor.com/docs/context/rules)
-
-**Guides**:
-- Cursor vs Code: [cursor.com/compare](https://cursor.com/compare)
-- API Key Setup: [platform.openai.com/docs](https://platform.openai.com/docs), [console.anthropic.com/docs](https://console.anthropic.com/docs)
-
-**Community**:
-- Cursor Discord: [discord.gg/cursor](https://discord.gg/cursor)
-- Subreddit: r/cursor_ai (for tips and troubleshooting)
-
-**Practice Projects**:
-- Try creating .cursorrules for a personal project
-- Migrate a VS Code workspace to Cursor and compare workflows
-- Use Cursor and Zed side-by-side for the same task, noting differences

@@ -11,7 +11,7 @@ learning_objectives:
   - "Verify installation by spawning a simple agent task"
 ---
 
-# Lesson 6: Installing Antigravity IDE
+# Installing Antigravity IDE
 
 ## Why Antigravity After Zed and Cursor?
 
@@ -42,27 +42,26 @@ Install Antigravity on your platform, understand its three-surface architecture,
 
 ---
 
-## Part 1: Understanding Antigravity's Context
+## Understanding Antigravity's Context
 
 ### Current Status (November 2025)
 
-Antigravity is Google DeepMind's developer tool, representing their vision for AI-native development. As of November 2025, **Antigravity is in private beta with limited access via waitlist**.
+Antigravity is Google's agentic development platform, announced on November 18, 2025, alongside Gemini 3. As of November 2025, **Antigravity is in public preview and free to use** with generous rate limits.
 
 **Access Status**:
-- **Private Beta**: Invitation-only access
-- **Waitlist**: Available at antigravity.google.com
-- **Expected Public Beta**: Q1 2026 (estimated)
-- **Current Users**: Early adopters, developers, selected companies
+- **Public Preview**: Open access for all developers
+- **Download**: Available at [antigravity.google/download](https://antigravity.google/download)
+- **Platforms**: Windows, macOS, and Linux
+- **Pricing**: Free during public preview with generous Gemini 3 Pro rate limits
+- **Models Supported**: Gemini 3, Anthropic Sonnet 4.5, OpenAI gpt-oss
 
 ### What This Means for You
 
-If you have access to the Antigravity beta, this lesson walks you through installation and first-use. If you're on the waitlist, you can follow along conceptually and understand the architecture, then install when access becomes available.
-
-**For now**: Assume you either have beta access or will by the time you reach this lesson.
+You can download and install Antigravity immediately to follow along with this lesson. The public preview provides full access to all features described in this lesson, making this a hands-on learning experience rather than conceptual overview.
 
 ---
 
-## Part 2: The 3-Surface Architecture Explained
+## The 3-Surface Architecture Explained
 
 Before installing, understand what Antigravity is. The key innovation is **three surfaces working together**:
 
@@ -125,7 +124,7 @@ You are never blocked waiting for the agent to finish one thing before you start
 
 ---
 
-## Part 3: System Requirements
+## System Requirements
 
 Before installing, verify your system meets minimum requirements:
 
@@ -174,13 +173,13 @@ Before installing, verify:
 
 ---
 
-## Part 4: Platform-Specific Installation
+## Platform-Specific Installation
 
 ### macOS Installation
 
 **Step 1: Download Antigravity**
 
-1. Visit [antigravity.google.com/download](https://antigravity.google.com/download) (or equivalent beta link)
+1. Visit [antigravity.google/download](https://antigravity.google/download)
 2. Select "macOS" (will auto-detect Apple Silicon vs Intel)
 3. Download the .dmg file
 
@@ -219,7 +218,7 @@ Antigravity provides multiple installation methods for Linux:
 
 ```bash
 # Download AppImage
-curl -L https://antigravity.google.com/download/linux/appimage -o antigravity.AppImage
+curl -L https://antigravity.google/download/linux/appimage -o antigravity.AppImage
 
 # Make executable
 chmod +x antigravity.AppImage
@@ -243,7 +242,7 @@ antigravity
 Ubuntu/Debian:
 ```bash
 # Download .deb package
-curl -L https://antigravity.google.com/download/linux/deb -o antigravity.deb
+curl -L https://antigravity.google/download/linux/deb -o antigravity.deb
 
 # Install
 sudo apt install ./antigravity.deb
@@ -255,7 +254,7 @@ antigravity
 Fedora/RHEL:
 ```bash
 # Download .rpm package
-curl -L https://antigravity.google.com/download/linux/rpm -o antigravity.rpm
+curl -L https://antigravity.google/download/linux/rpm -o antigravity.rpm
 
 # Install
 sudo dnf install antigravity.rpm
@@ -294,7 +293,7 @@ WSL2 is optional for basic usage but recommended for advanced workflows.
 
 **Step 2: Download and Install**
 
-1. Visit [antigravity.google.com/download](https://antigravity.google.com/download)
+1. Visit [antigravity.google/download](https://antigravity.google/download)
 2. Select "Windows"
 3. Download the .exe installer
 4. Run the installer (.exe file)
@@ -315,13 +314,13 @@ antigravity
 
 ---
 
-## Part 5: Initial Setup and Authentication
+## Initial Setup and Authentication
 
 ### First Launch: Welcome Screen
 
 When you launch Antigravity for the first time, you'll see a welcome screen:
 
-**Step 1: Google Account Sign-In**
+### Step 1: Google Account Sign-In
 
 1. Click "Sign In with Google"
 2. Your default browser opens to accounts.google.com
@@ -386,7 +385,7 @@ Choose default AI model:
 
 ---
 
-## Part 6: Agent Manager Deep Dive
+## Agent Manager Deep Dive
 
 Once setup completes, you're in the main Antigravity interface. The **Agent Manager** is your primary control panel.
 
@@ -467,7 +466,7 @@ Click "Create" to spawn the agent. It now appears in Agent List as **Idle**.
 
 ---
 
-## Part 7: Understanding Artifacts
+## Understanding Artifacts
 
 Artifacts are the heart of Antigravity's workflow. Before completing your first task, understand what artifacts are.
 
@@ -584,7 +583,7 @@ Created index.html with:
 
 ---
 
-## Part 8: Verification Test
+## Verification Test
 
 Now you'll install and verify Antigravity works by completing a simple task.
 
@@ -791,7 +790,7 @@ If all checkboxes pass: **Installation successful!**
 
 ---
 
-## Part 9: Troubleshooting Common Issues
+## Troubleshooting Common Issues
 
 ### Issue 1: "Cannot launch Antigravity"
 
@@ -910,7 +909,7 @@ google-chrome --version  # Should be 120+
 
 ---
 
-## Part 10: Practice Checklist
+## Practice Checklist
 
 Before moving to Lesson 7, complete this verification checklist:
 
@@ -944,38 +943,4 @@ Before moving to Lesson 7, complete this verification checklist:
 - [ ] Modify agent instructions and see how it changes behavior
 - [ ] Try autonomy level "Full Auto" for a simple task (watch speed difference)
 
----
 
-## What You Learned
-
-You installed Antigravity on your system and verified a complete agent workflow from task creation through browser testing. You understand the three-surface architecture (Agent Manager for control, Editor for coding, Integrated Browser for testing) and how artifacts (Task List, Plan, Walkthrough) guide agent behavior. You created your first agent, configured its instructions, and observed how it generates structured plans before implementing code—embodying the "specification-first" approach central to AI-native development.
-
----
-
-## Next Lesson Preview
-
-Lesson 7 explores Antigravity's advanced features: artifact-driven workflows, context-aware editing, parallel task execution, and how agents iterate based on feedback. You'll build a complete project (like the temperature converter in Lessons 3 and 5) but this time using Antigravity's three-surface system, experiencing how agent-driven development differs fundamentally from inline assistance or autonomous code generation alone.
-
----
-
-## Additional Resources
-
-**Official Resources**:
-- Antigravity Documentation: [antigravity.google.com/docs](https://antigravity.google.com/docs)
-- Google AI Studio (for API keys): [aistudio.google.com](https://aistudio.google.com)
-- DeepMind Blog: [deepmind.google.com/blog](https://deepmind.google.com/blog)
-
-**Video Tutorials**:
-- "Your First Antigravity Agent" (10 minutes)
-- "Understanding Three Surfaces" (8 minutes)
-- "Artifact-Driven Development" (12 minutes)
-
-**Community**:
-- Antigravity Discord: [discord.gg/antigravity](https://discord.gg/antigravity)
-- Google DeepMind Discussions: [discuss.deepmind.google](https://discuss.deepmind.google)
-- Stack Overflow: Tag `antigravity-ide`
-
-**Related Lessons in This Course**:
-- Lesson 2: Installing Zed IDE (compare performance-focused approach)
-- Lesson 4: Installing Cursor IDE (compare VS Code-based approach)
-- Lesson 8: Comparative Capstone (side-by-side evaluation of all three)

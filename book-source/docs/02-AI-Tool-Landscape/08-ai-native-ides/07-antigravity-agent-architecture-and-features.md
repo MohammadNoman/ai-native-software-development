@@ -23,7 +23,7 @@ workflow: /sp.implement
 version: 1.0.0
 ---
 
-# Lesson 7: Antigravity Agent Architecture and Features
+# Antigravity Agent Architecture and Features
 
 ## Building AI Systems That Know When to Ask
 
@@ -35,7 +35,7 @@ By the end of this lesson, you'll have built a real application (a recipe finder
 
 ---
 
-## Part 1: The Autonomy Spectrum
+## The Autonomy Spectrum
 
 Before diving into features, understand the fundamental shift Antigravity enables: **agent autonomy levels**.
 
@@ -135,7 +135,7 @@ For Lesson 7, you'll practice all three modes to experience when each makes sens
 
 ---
 
-## Part 2: Feature 1 — Agent-Assisted Development
+## Feature 1 — Agent-Assisted Development
 
 ### How It Works: The Request → Plan → Execute Cycle
 
@@ -472,7 +472,7 @@ Working on files now...
 [Runs tests]
 Status: COMPLETE"
 ```
-
+```
 **Reflection**: Notice what happened here?
 
 - The agent did the analysis (identifying all API calls, comparing options)
@@ -483,7 +483,7 @@ This is "Ask Sometimes" in action: agent handles heavy lifting, you make archite
 
 ---
 
-## Part 3: Feature 2 — Implementation Plan Artifacts and Approval Gates
+## Feature 2 — Implementation Plan Artifacts and Approval Gates
 
 ### Why Plans Matter
 
@@ -719,7 +719,7 @@ If the agent had just started coding, it might have chosen WeatherAPI or missed 
 
 ---
 
-## Part 4: Feature 3 — Parallel Task Execution
+## Feature 3 — Parallel Task Execution
 
 ### Why Parallelism Matters
 
@@ -1079,7 +1079,7 @@ Request: Update the form to show this hint."
 
 Agent: [Updates form with validation hint]
 ```
-
+```
 **Reflection**: Notice what happened:
 
 - You defined test cases (5 minutes)
@@ -1092,7 +1092,7 @@ This would take you 30+ minutes to test manually and you'd probably miss edge ca
 
 ---
 
-## Part 6: Feature 5 — Walkthrough Artifacts
+## Feature 5 — Walkthrough Artifacts
 
 ### What Walkthroughs Are
 
@@ -1255,7 +1255,7 @@ You never have to wonder: "Did this really work?" The screenshots prove it.
 
 ---
 
-## Part 7: Mini-Project — Recipe Finder App
+## Mini-Project — Recipe Finder App
 
 ### Project Overview
 
@@ -1681,7 +1681,7 @@ You now have a complete application built without writing any code yourself. You
 
 ---
 
-## Part 8: Comparison Framework — Antigravity vs Cursor vs Zed
+## Comparison Framework — Antigravity vs Cursor vs Zed
 
 ### Three Approaches to AI-Native Development
 
@@ -1744,7 +1744,7 @@ Best: Antigravity
 
 ---
 
-## Part 9: Practice and Self-Assessment
+## Practice and Self-Assessment
 
 ### Checklist: Can You Do These Things?
 
@@ -1803,7 +1803,7 @@ This full workflow uses everything from Lesson 7:
 
 ---
 
-## Part 10: What You Learned This Lesson
+## What You Learned This Lesson
 
 By completing this lesson, you've learned to:
 
@@ -1884,35 +1884,3 @@ Is this ready to approve? What should I ask the agent to fix before approval?
 
 **Safety Note**: When using real agents, verify that Spoonacular API responses are authentic before deploying to production. Always test error cases (what happens when API limit is hit?) manually before trusting automated testing.
 
----
-
-## Next Lesson Preview
-
-**Lesson 8: Comparative Capstone — "Try With AI"**
-
-You've learned three IDEs. Now you'll choose one and build a real project, documenting how your chosen IDE compared to the others. This capstone synthesizes all lessons in Chapter 8 and demonstrates mastery of AI-native development workflows.
-
-You'll submit a 1500-2000 word comparative analysis plus a working application built with your chosen IDE.
-
----
-
-## Additional Resources
-
-**Antigravity Official**:
-- [Antigravity Documentation](https://antigravity.google.com/docs)
-- [Agent Architecture Guide](https://antigravity.google.com/docs/agents)
-- [Artifacts Reference](https://antigravity.google.com/docs/artifacts)
-
-**API References**:
-- [Spoonacular API Docs](https://spoonacular.com/food-api)
-- [OpenWeatherMap API](https://openweathermap.org/api)
-
-**Learning Resources**:
-- Recipe Finder App Template (for reference)
-- Artifact Templates (Task List, Implementation Plan, Walkthrough examples)
-- Autonomy Decision Framework (quick reference chart)
-
-**Community**:
-- Antigravity Discussions Forum
-- AI-Native Development Discord
-- Share your projects and learn from others' artifact workflows

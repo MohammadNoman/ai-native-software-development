@@ -14,6 +14,21 @@ learning_objectives:
 
 Before installing and using AI-native IDEs, you need to understand what makes them different from traditional code editors. This lesson builds the conceptual foundation for the rest of Chapter 8.
 
+## What is an IDE?
+
+An **IDE (Integrated Development Environment)** is a code editor that combines multiple development tools in one application:
+- Text editor for writing code
+- File browser for navigating projects
+- Terminal for running commands
+- Debugger for finding errors
+- Extensions for additional features
+
+You've already used development environments:
+- **Chapter 5 (Claude Code)**: A command-line AI collaboration tool
+- **This chapter**: GUI-based AI-native IDEs (Zed, Cursor, Antigravity)
+
+The key difference: Traditional IDEs focus on manual coding. AI-native IDEs are designed for AI collaboration from the ground up.
+
 ## What Makes an IDE "AI-Native"?
 
 You've used AI tools before—Claude Code in Chapter 5, maybe Gemini CLI in Chapter 6. But what makes a code editor "AI-native" instead of just "having AI features"?

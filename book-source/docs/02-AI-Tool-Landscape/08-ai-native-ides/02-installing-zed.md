@@ -10,7 +10,7 @@ learning_objectives:
   - "Verify installation by generating code via inline assistant"
 ---
 
-# Lesson 2: Installing Zed IDE
+# Installing Zed IDE
 
 ## Why Zed First?
 
@@ -34,7 +34,7 @@ Install Zed on your platform, connect to an AI provider, verify AI assistance, a
 
 ---
 
-## Part 1: Platform-Specific Installation
+## Platform-Specific Installation
 
 ### macOS Installation
 
@@ -58,20 +58,19 @@ Or use your package manager (apt, dnf, pacman) or AppImage.
 
 ### Windows Installation
 
-Download .msi from zed.dev/download and run, or:
-```powershell
-winget install zed
-```
+Download the Windows installer from [zed.dev/download](https://zed.dev/download) and run the .exe file.
+
+**Note**: Windows Package Manager (winget) support is not currently available for Zed. Use the direct download method.
 
 ---
 
-## Part 2: Initial Setup Wizard
+## Initial Setup Wizard
 
 Choose Dark theme, your keymap, font size (14 or 16), and enable AI assistance.
 
 ---
 
-## Part 3: AI Provider Authentication
+## AI Provider Authentication
 
 Choose ONE provider:
 
@@ -85,47 +84,28 @@ Choose ONE provider:
 
 ---
 
-## Part 4: Verification Test
+## Verification Test
 
-Create test.py file. Type comment about prime checker. Trigger assistant with Cmd+K / Ctrl+K then Cmd+/ / Ctrl+/. Ask for prime function. Accept generated code.
+Create test.py file. Type comment about prime checker. Trigger assistant:
+- **macOS**: Press `Cmd+K`, then press `Cmd+?`
+- **Windows/Linux**: Press `Ctrl+K`, then press `Ctrl+?`
+
+Ask for prime function. Accept generated code.
 
 ---
 
-## Part 5: Configuration Deep Dive
+## Configuration Deep Dive
 
 Settings accessed via Zed menu opens settings.json file. Configure theme, buffer_font_size, tab_size, formatter, and assistant default_model. Recommended settings use One Dark theme, font 14, tab 4, black formatter, Claude model.
 
 ---
 
-## Part 6: Troubleshooting Guide
+## Troubleshooting Guide
 
 API Key Invalid: Regenerate at provider. Connection Timeout: Check internet, restart Zed, check provider status. Panel Missing: Verify keyboard shortcut or use command palette. Slow: Normal for first request, check model selection.
 
 ---
 
-## Part 7: Practice Checklist
+## Practice Checklist
 
 Launch Zed, create Python file, open settings.json, trigger assistant, ask question, accept code, change model, find API key. Eight items - all required before Lesson 3.
-
----
-
-## What You Learned
-
-Installed Zed on your platform, chose and authenticated with AI provider, verified installation, configured settings, and learned troubleshooting basics. You now have working AI-native IDE.
-
----
-
-## Next Lesson Preview
-
-Lesson 3 covers building real projects, using inline assistant incrementally, experiencing Three Roles collaboration, iterating based on feedback, and specification-driven prompting.
-
----
-
-## Additional Resources
-
-Zed: zed.dev/docs
-Anthropic: docs.anthropic.com
-OpenAI: platform.openai.com/docs
-Google: ai.google.dev
-Ollama: ollama.ai
-Community: zed.dev/community
